@@ -6,6 +6,8 @@ The `color` package provides terminal escape sequences for giving life to consol
 
 ## Overview
 
+ANSI escape sequence processing allows capable output device(s) to display color.
+
 While there exists other packages, `github.com/x-ethr/color` dynamically determines if the given output
 device is capable of escaping. For usage with CI and production systems, `color` will automatically disable
 adding color to user-provided value(s).
